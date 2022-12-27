@@ -5,7 +5,7 @@ import { useLocalStorage, useInputState, useDebouncedValue } from "@mantine/hook
 import { NotificationsProvider, showNotification } from "@mantine/notifications";
 import { IconExclamationMark } from "@tabler/icons";
 
-const API_URL = "https://translate-api-685.vercel.app";
+const API_URL = "http://localhost:8000";
 
 const TranslateContext = createContext();
 
